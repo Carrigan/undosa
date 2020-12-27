@@ -1,4 +1,4 @@
-use crate::{pitch::Pitch, quantize};
+use crate::quantize;
 use crate::note::Note;
 
 pub struct Melody<'a> {
