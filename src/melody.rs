@@ -6,7 +6,7 @@ pub struct Melody<'a> {
     current_sample: u32,
     current_note: u32,
     next_note_start: u32,
-    tempo: u8
+    pub tempo: u8
 }
 
 impl <'a> Melody<'a> {
