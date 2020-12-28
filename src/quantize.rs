@@ -15,3 +15,5 @@ impl <T> Quantizable<T> for T where T: WaveGenerator {
         self.take(take_amount as usize)
     }
 }
+
+impl <T> WaveGenerator for Take<T> where T: WaveGenerator {}

@@ -6,3 +6,4 @@ pub mod melody;
 pub mod pitch;
 pub mod quantize;
 pub mod note;
+pub mod envelope;
